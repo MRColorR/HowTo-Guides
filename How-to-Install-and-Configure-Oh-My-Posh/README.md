@@ -1,13 +1,15 @@
 # How to Install and Configure Oh My Posh 💻
 
 This guide will walk you through installing and configuring Oh My Posh, a prompt engine for various shells that enhances the look and functionality of your terminal.
+
 Benefits of Oh My Posh:
 - Improves readability with additional information.
 - Highly customizable with a wide range of themes.
 - Supports popular shells like PowerShell, Bash, and ZSH.
+  
+[![Click on image to see full video](https://img.youtube.com/vi/2hnyshf7G6o/0.jpg "Watch the complete video tutorial")](https://www.youtube.com/watch?v=2hnyshf7G6o)
 
 [Watch the complete video tutorial](www.youtube.com/watch?v=2hnyshf7G6o)
-[![Click on image to see full video](https://img.youtube.com/vi/2hnyshf7G6o/0.jpg)](https://www.youtube.com/watch?v=2hnyshf7G6o)
 
 ## Steps Covered in the Video 🎥 
 
