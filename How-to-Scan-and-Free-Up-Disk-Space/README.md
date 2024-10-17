@@ -4,8 +4,9 @@ This guide will walk you through using WinDirStat, a free, open-source disk usag
 
 Using WinDirStat, you can easily find old files, temporary files, or programs taking up significant space on your system and free up your storage efficiently.
 
-[Watch the complete video tutorial](www.youtube.com/watch?v=HM26w6WhPtQ)
 [![Click on image to see full video](https://img.youtube.com/vi/HM26w6WhPtQ/0.jpg)](https://www.youtube.com/watch?v=HM26w6WhPtQ)
+
+[Watch the complete video tutorial](www.youtube.com/watch?v=HM26w6WhPtQ)
 
 ## Steps Covered in the Video 🎥 
 
