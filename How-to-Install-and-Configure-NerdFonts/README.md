@@ -1,9 +1,9 @@
 # How to How to Install and configure NerdFonts on Windows, Linux, WSL, and macOS 🎨
 
-This guide will walk you through the installation of NerdFonts, a collection of fonts that includes popular monospaced fonts patched with additional glyphs, ligatures, and icons. This is especially useful for developers and programmers looking to enhance their coding experience.
+This guide will walk you through the installation of NerdFonts, a collection of fonts that includes popular monospaced fonts patched with additional glyphs, ligatures, and icons. This is especially useful for developers and programmers looking to enhance their coding experience. [Watch the complete video tutorial](www.youtube.com/watch?v=JNMvRv69pGE)
 
-[Watch the complete video tutorial](www.youtube.com/watch?v=JNMvRv69pGE)
-[![Click on image to see full video](https://img.youtube.com/vi/JNMvRv69pGE/0.jpg)](https://www.youtube.com/watch?v=JNMvRv69pGE)
+
+[![Click on image to see full video](https://img.youtube.com/vi/JNMvRv69pGE/0.jpg "Watch the complete video tutorial")](https://www.youtube.com/watch?v=JNMvRv69pGE)
 
 ## Steps Covered in the Video 🎥 
 
