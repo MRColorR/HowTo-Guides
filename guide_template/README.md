@@ -1,8 +1,10 @@
 # How to [Title of Your Guide] 📝
 
-This guide will walk you through [brief description of what the guide covers and its importance]. This tool/method is especially useful for [who it’s for or what it’s helpful for]. [Watch the complete video tutorial](www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+This guide will walk you through [brief description of what the guide covers and its importance]. This tool/method is especially useful for [who it’s for or what it’s helpful for].
 
 [![Click on image to see full video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg "Watch the complete video tutorial")](www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+[Watch the complete video tutorial](www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 ## Steps Covered in the Video 🎥 
 
