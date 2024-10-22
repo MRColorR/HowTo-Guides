@@ -1,0 +1,25 @@
+# .aliases
+
+# List files in long format
+alias ll='ls -alF'
+
+# List all files, including hidden files
+alias la='ls -A'
+
+# List files in long format with human-readable file sizes
+alias lh='ls -lh'
+
+# Navigate up one directory
+alias ..='cd ..'
+
+# Navigate up two directories
+alias ...='cd ../..'
+
+# Clear the terminal screen
+alias c='clear'
+
+# Show disk usage in human-readable format
+alias duh='du -h'
+
+# Show free disk space in human-readable format
+alias dfh='df -h'
