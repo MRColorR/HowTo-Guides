@@ -65,9 +65,3 @@ For all the installation methods see the [Oh My Posh Docs](https://ohmyposh.dev/
 # Credits and Contributions 🤝
 If you found this guide helpful, feel free to leave a star ⭐ on the repository! Contributions are welcome. Please check the Contributing section in the root of this repository.
 
----
-
-Instructions for Use this guide template:
-- Copy this template in a new readme.md file for the guide. - Remove these instructions and any unnecessary part (e.g., if the guide do not provide scripts, remove the scripts part)
-- Replace the placeholders (e.g., [Title of Your Guide], [Description of Step 1]) with relevant information for each guide.
-- Ensure that each part or any provided script are correctly formatted and tested.
