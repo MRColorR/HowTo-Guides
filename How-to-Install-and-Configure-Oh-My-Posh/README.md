@@ -58,6 +58,11 @@ For all the installation methods see the [Oh My Posh Docs](https://ohmyposh.dev/
 ## Summary 📋
 - This guide provided a basic overview of installing and configuring Oh My Posh. Remember, Oh My Posh offers extensive customization options. Explore the Oh My Posh website to learn more about themes, segments, and advanced configuration.
 
+## Scripts 🛠️
+- A simple Bash script is available in this folder alongside this README to check and add if .local/bin is in path: 
+    - Copy the script on your machine or clone the repository
+    - If the script is not executable, make it so with: `chmod +x add_local-bin_to_path_bash.sh`
+    - Run the script: `./add_local-bin_to_path_bash.sh`
 ## Resources 📂
 - [Oh My Posh website](https://ohmyposh.dev/)
 - [Oh My Posh repository](https://github.com/jandedobbeleer/oh-my-posh)
