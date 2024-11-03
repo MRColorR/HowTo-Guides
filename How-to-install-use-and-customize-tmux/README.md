@@ -1,4 +1,4 @@
-# How to [Title of Your Guide] 📝
+# How to Install, Use and Customize Tmux: Complete Guide 📝
 
 This guide is designed to introduce you to Tmux, a powerful terminal multiplexer, and to walk you through installation, basic usage, customization tips, and some useful tricks.
 
