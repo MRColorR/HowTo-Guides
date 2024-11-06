@@ -2,9 +2,9 @@
 
 This guide will walk you through how using dotfiles to streamline and optimize your development environment! In this tutorial, you’ll learn what dotfiles are, why they're essential for a consistent setup across devices, and how to create and manage them efficiently. Dotfiles are configuration files typically hidden in Unix-like systems, designed to improve productivity by personalizing your workspace to fit your specific needs. Follow this guide to understand dotfiles and learn how to leverage them across multiple machines.
 
-[![Click on image to see full video](https://img.youtube.com/vi/oYBvXZ_4we8/0.jpg "Watch the complete video tutorial")](www.youtube.com/watch?v=oYBvXZ_4we8)
+[![Click on image to see full video](https://img.youtube.com/vi/oYBvXZ_4we8/0.jpg "Watch the complete video tutorial")](https://www.youtube.com/watch?v=oYBvXZ_4we8)
 
-[Watch the complete video tutorial](www.youtube.com/watch?v=oYBvXZ_4we8)
+[Watch the complete video tutorial](https://www.youtube.com/watch?v=oYBvXZ_4we8)
 
 ## Steps Covered in the Video 🎥 
 
