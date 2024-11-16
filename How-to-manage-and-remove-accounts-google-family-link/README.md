@@ -2,9 +2,9 @@
 
 This guide provides step-by-step instructions to help you manage, modify, or remove Google Family Link from a supervised account. Whether you need to add accounts to the family, adjust restrictions, remove supervision after the account reaches the minimum age, or accelerate the graduation process, this guide ensures you can handle it effectively and securely.
 
-[![Click on image to see full video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg "Watch the complete video tutorial")](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Click on image to see full video](https://img.youtube.com/vi/r2NollvAS7Y/0.jpg "Watch the complete video tutorial")](https://www.youtube.com/watch?v=r2NollvAS7Y)
 
-[Watch the complete video tutorial](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[Watch the complete video tutorial](https://www.youtube.com/watch?v=r2NollvAS7Y)
 
 ## Steps Covered in the Video 🎥 
 
