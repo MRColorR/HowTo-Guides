@@ -2,9 +2,9 @@
 
 This guide is designed to introduce you to Tmux, a powerful terminal multiplexer, and to walk you through installation, basic usage, customization tips, and some useful tricks.
 
-[![Click on image to see full video](https://img.youtube.com/vi/_DsRuPLdZQs/0.jpg "Watch the complete video tutorial")](www.youtube.com/watch?v=_DsRuPLdZQs)
+[![Click on image to see full video](https://img.youtube.com/vi/_DsRuPLdZQs/0.jpg "Watch the complete video tutorial")](https://www.youtube.com/watch?v=_DsRuPLdZQs)
 
-[Watch the complete video tutorial](www.youtube.com/watch?v=_DsRuPLdZQs)
+[Watch the complete video tutorial](https://www.youtube.com/watch?v=_DsRuPLdZQs)
 
 ## Steps Covered in the Video 🎥 
 
