@@ -27,7 +27,7 @@ We welcome contributions from the community! If you have a script, guide, or imp
 ## Stay Connected 🌐
 
 **Join our community** to stay updated on the latest tools, guides, and tutorials. You can also engage with other tech enthusiasts and gamers::
-- [Discord community](https://discord.gg/jGJsxWq96R)
+- [Discord community](https://discord.gg/d5rPXx8)
 
 ## Support the Projects 🫶
 
