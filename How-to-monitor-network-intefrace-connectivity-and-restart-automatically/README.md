@@ -1,4 +1,4 @@
-# How to Automatically Monitor Network Interface Connectivity and Restart 📝
+# How to Monitor Network Interface Connectivity and Restart Automatically📝
 
 This guide will walk you through the process of automatically monitoring network interface connectivity and restarting it when connectivity is lost. This method is especially useful for system administrators, tech enthusiasts, or anyone looking to ensure stable network performance.
 
