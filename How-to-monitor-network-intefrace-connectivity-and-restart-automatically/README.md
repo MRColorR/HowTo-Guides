@@ -38,14 +38,14 @@ This guide will walk you through setting up a script to **monitor and restore ne
       ```
     - Navigate to the appropriate folder and make the script executable:
       ```bash
-      chmod +x connectivity_check.sh
+      chmod +x check_connectivity_and_restart_interface.sh
       ```
     - Customize the script variables to match your network setup (e.g., interface name, target IP/domain).
 
 4. **Running the Script**
     - Run manually for testing:
       ```bash
-      ./connectivity_check.sh
+      ./check_connectivity_and_restart_interface.sh
       ```
     - Set up a cron job for automated execution:
       ```bash
@@ -53,7 +53,7 @@ This guide will walk you through setting up a script to **monitor and restore ne
       ```
       Add the following line for periodic checks (every 5 minutes):
       ```bash
-      */5 * * * * /path/to/connectivity_check.sh
+      */5 * * * * /path/to/check_connectivity_and_restart_interface.sh
       ```
 
 5. **Demo on remote Raspberry Pi**
@@ -62,8 +62,8 @@ This guide will walk you through setting up a script to **monitor and restore ne
 6. **Automation with Installer Script**
     - Use the installer script to set up everything automatically:
       ```bash
-      chmod +x install_connectivity_monitor.sh
-      ./install_connectivity_monitor.sh
+      chmod +x install_connectivity_check.sh
+      ./install_connectivity_check.sh
       ```
 
 ---
