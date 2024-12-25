@@ -17,7 +17,12 @@ This guide will walk you through setting up a script to **monitor and restore ne
         - Minimized Downtime: Automated solutions that monitor and restore connectivity reduce the time systems spend offline, keeping critical functions running smoothly.
         - Remote Accessibility: For remote systems, manual intervention might not always be possible. Automated monitoring ensures these systems stay connected without requiring a physical visit.
     - Use cases: IoT devices, remote servers, Raspberry Pi, and home labs.
-    - Challenges caused by unstable connections: 
+    - Challenges caused by unstable connections:
+        - Service Interruptions
+        - Data Loss and Corruption
+        - Increased Maintenance Costs
+        - Disrupted User Experience
+        - Operational Risks in Critical Scenarios 
 
 2. **How the Script Works**
     - Monitors network connectivity by pinging a specific IP or domain.
