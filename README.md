@@ -42,7 +42,13 @@ Your support helps sustain the development of these open-source projects, allowi
 - Polygon (MATIC): 0xE65c32004b968cd1b4084bC3484C0dA051eeD3ee
 - BNB (Binance Smart Chain): 0xE65c32004b968cd1b4084bC3484C0dA051eeD3ee
 
-Your support, no matter the amount, is greatly appreciated and directly contributes to ongoing and future developments. **Thank you for your generosity!** 🙏
+### Support via Other Platforms
+
+- **Patreon:** [Support me on Patreon](https://patreon.com/mrcolorrain)
+- **Buy Me a Coffee:** [Buy me a coffee](https://buymeacoffee.com/mrcolorrain)
+- **Ko-fi:** [Support me on Ko-fi](https://ko-fi.com/mrcolorrain)
+
+Your support, no matter how small, is enormously appreciated and directly fuels ongoing and future developments.  **Thank you for your generosity!** 🙏
 
 ## ⚠️ Disclaimer 
 This project and its artifacts are provided "as is" and without warranty of any kind.
