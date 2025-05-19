@@ -5,17 +5,17 @@
 This guide will walk you through **(brief description of what the guide covers and its importance)**.  
 This tool/method is especially useful for **(who it’s for or what it helps with)**.
 
-## 🔍 Introduction
-(Provide an overview of the theme and introduce the relevant technologies, concepts, and practical applications.)
-- Explain what these technologies/tools do
-- Why use them? How do they work?
-- Define key terminology to make sure the reader is comfortable and ready to proceed with the guide.
-
 ## 📺 Video Tutorial <Optional>
 (If available, a video tutorial can be included here)
 [![Click on image to see full video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg "Watch the complete video tutorial")](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 [Watch the complete video tutorial](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+## 🔍 Introduction
+(Provide an overview of the theme and introduce the relevant technologies, concepts, and practical applications.)
+- Explain what these technologies/tools do
+- Why use them? How do they work?
+- Define key terminology to make sure the reader is comfortable and ready to proceed with the guide.
 
 ## 📝 Step by step
 Each guide must include clear steps, whether written or visual.
