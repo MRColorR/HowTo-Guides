@@ -1,0 +1,348 @@
+{
+  // ========================================
+  // 💭 CONFIGURATION PHILOSOPHY & RATIONALE
+  // ========================================
+  // This VS Code settings file is designed to provide a COMPLETE, OPINIONATED, and MAINTAINABLE
+  // development environment that works seamlessly across Windows, Linux, and macOS.
+  // @author: MRC
+
+  // 🌍 MULTI-LANGUAGE SUPPORT:
+  // • Python: Modern development with Ruff (linting/formatting) and Pylance (IntelliSense)
+  // • JavaScript/TypeScript: Latest features with Prettier formatting and ESLint linting
+  // • Java: Enterprise development with Language Support and debugging
+  // • C/C++: Traditional systems programming with modern standards (C11/C++17)
+  // • Web Technologies: HTML, CSS, SCSS, Vue, JSON, YAML with Prettier
+  // • Documentation: Markdown with linting for quality assurance
+
+  // 📋 WHAT THIS CONFIGURATION OFFERS:
+  // • Cross-platform consistency (same experience everywhere)
+  // • Modern development workflow (AI assistance, smart formatting, Git integration)
+  // • Performance optimization (smart exclusions, minimal extension bloat)
+  // • Code quality enforcement (auto-formatting, linting, import organization)
+  // • Enhanced terminal experience (Nerd Fonts, Oh My Posh compatibility)
+  // • Accessibility and multilingual support (Unicode handling, screen readers)
+  // • Safety features (commented for easy toggling: confirmations, auto-detection)
+
+  // 🔧 WHY THESE CHOICES:
+  // • MULTI-LANGUAGE FIRST: Supports top programming languages with best-in-class tooling
+  // • MINIMAL BUT COMPLETE: Only essential extensions, maximum productivity
+  // • EXTENSION PACKS PREFERRED: Reduces installation overhead
+  // • UNIVERSAL + SPECIALIZED: Choices like Prettier for many languages + specialized tools for others
+  // • COMMENTED OPINIONS: Controversial settings are commented so you can toggle them
+  // • INHERITANCE OVER DUPLICATION: Language-specific settings only when they differ from global
+  // • MODERN TOOLCHAIN: Latest language servers, formatters and linters
+  // • CROSS-PLATFORM CONSISTENCY: Works identically on Windows, Linux, and macOS
+  //
+  // 🎨 VISUAL CONSISTENCY:
+  // • Modern fonts with ligatures and Nerd Font glyphs for enhanced terminal experience
+  // • Consistent spacing, rulers, and visual guides across all file types
+  // • Dark theme with enhanced Git decorations and bracket colorization
+
+  // ----------------------------------------
+  // 📦 RECOMMENDED EXTENSIONS & FONTS
+  // ----------------------------------------
+  // 🎯 ESSENTIAL EXTENSIONS (install these for complete setup):
+
+  // LANGUAGE SUPPORT PACKS:
+  // • "ms-python.python" - Complete Python pack (includes Pylance, debugger, IntelliSense)
+  // • "vscjava.vscode-java-pack" - Java development pack (includes Language Support, Debugger, IntelliSense, Maven, etc.)
+  // • "ms-vscode.cpptools-extension-pack" - C/C++ IntelliSense, debugging, and cMake tools
+
+  // ----------------------------------------
+  // 🛠️ FORMATTERS & LINTERS
+  // ----------------------------------------
+  // Formatters:
+  // • "esbenp.prettier-vscode" - Universal formatter (JS, TS, CSS, HTML, JSON, Markdown, YAML)
+  // • "charliermarsh.ruff" - Modern Python linter/formatter (replaces Black, isort, flake8, mypy)
+  // Linters:
+  // • "ms-vscode.vscode-eslint" - JavaScript/TypeScript linter (ESLint)
+  // • "charliermarsh.ruff" - Modern Python linter/formatter (replaces Black, isort, flake8, mypy)
+  // • "DavidAnson.vscode-markdownlint" - Markdown linter for consistent documentation quality
+
+  // ----------------------------------------
+  // 🐛 CODE QUALITY & SECURITY:
+  // ----------------------------------------
+  // • "sonarsource.sonarlint-vscode" - Real-time code quality & security analysis (multi-language)
+
+  // ----------------------------------------
+  // 📝 SPELL CHECKING
+  // ----------------------------------------
+  // • "streetsidesoftware.code-spell-checker" - Spell checker for code comments, documentation and git commits
+  //   Some spell-checker Optional language packs (install as needed for multi-language projects):
+  //   • "streetsidesoftware.code-spell-checker-german" - German language support
+  //   • "streetsidesoftware.code-spell-checker-french" - French language support
+  //   • "streetsidesoftware.code-spell-checker-spanish" - Spanish language support
+  //   • "streetsidesoftware.code-spell-checker-italian" - Italian language support
+
+  // ----------------------------------------
+  // 🔀 VERSION CONTROL
+  // ----------------------------------------
+  // • "eamodio.gitlens" - Enhanced Git capabilities (blame, history, compare, graph)
+
+  // ----------------------------------------
+  // 🤖 AI DEVELOPMENT:
+  // ----------------------------------------
+  // • "github.copilot" - AI pair programmer (includes Copilot Chat)
+
+  // ----------------------------------------
+  // 🤝 SHARING & COLLABORATION:
+  // ----------------------------------------
+  // • "ms-vsliveshare.vsliveshare" - Real-time collaborative editing
+
+  // ----------------------------------------
+  // 🔤 RECOMMENDED FONTS (install on your system):
+  // ----------------------------------------
+  //
+  // PRIMARY FONT CHOICE:
+  // • "CaskaydiaCove NF" (Caskaydia Cove Nerd Font) - Patched Cascadia Code with NF glyphs
+  //   Download: https://www.nerdfonts.com/font-downloads
+  //   Features: Excellent readability, programming ligatures, glyphs for enhanced terminal/UI
+  //
+  // FALLBACK FONT OPTIONS:
+  // • "Cascadia Code" - Microsoft's modern programming font with ligatures
+  //   Download: https://github.com/microsoft/cascadia-code/releases
+  // • "Fira Code" - Popular open-source font with extensive ligatures
+  //   Download: https://github.com/tonsky/FiraCode/releases
+  // • "JetBrains Mono" - Clean, readable font optimized for developers
+  //   Download: https://www.jetbrains.com/lp/mono/
+
+  // ----------------------------------------
+  // 🎨 TERMINAL THEME ENGINE:
+  // ----------------------------------------
+  // • "Oh My Posh" - Cross-platform prompt theme engine (leverages Nerd Fonts)
+  //   Website: https://ohmyposh.dev/
+  //   Features: Beautiful prompts, Git integration, works on Windows/Linux/macOS
+  //   Requires: Nerd Font (like CaskaydiaCove NF) for optimal display
+
+  // ========================================
+  // ⚙️ VS CODE SETTINGS
+  // ========================================
+
+  // ----------------------------------------
+  // 📁 FILES & CROSS-PLATFORM COMPATIBILITY
+  // ----------------------------------------
+
+  "files.eol": "\n", // Unix line endings for cross-platform consistency
+  "files.trimTrailingWhitespace": true, // Clean up trailing spaces (default: false)
+  "files.insertFinalNewline": true, // POSIX compliance (default: false)
+  "files.trimFinalNewlines": true, // Remove extra blank lines (default: false)
+
+  // ----------------------------------------
+  // 🎨 EDITOR FONT & APPEARANCE
+  // ----------------------------------------
+
+  "editor.fontFamily": "'CaskaydiaCove NF', 'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'Source Code Pro', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true, // Enable programming ligatures (default: false)
+  "editor.fontSize": 15, // Comfortable size for readability (default: 14)
+  "editor.lineHeight": 1.5, // Better readability (default: 0/auto)
+  "editor.detectIndentation": true, // Enforce our tab settings (default: true)
+  "editor.renderWhitespace": "all", // Show all whitespace (default: "none")
+  "editor.rulers": [80, 120], // Line length guides following opinionated standards (default: none)
+  "editor.wordWrap": "bounded", // Smart wrapping (default: "off")
+  "editor.wordWrapColumn": 120, // Wrap at 120 chars (default: 80)
+  "editor.bracketPairColorization.enabled": true, // Colorize brackets (default: false)
+  "editor.guides.bracketPairs": true, // Show bracket guides (default: false)
+  "editor.inlineSuggest.enabled": true, // Enable AI suggestions (default: false)
+
+  // ----------------------------------------
+  // ⚡ CODE ACTIONS & FORMATTING
+  // ----------------------------------------
+
+  "editor.formatOnSave": true, // Auto-format on save (default: false)
+  "editor.formatOnPaste": true, // Auto-format pasted code (default: false)
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit", // Auto-fix linting issues
+    "source.organizeImports": "explicit" // Sort imports on save
+  },
+  "editor.linkedEditing": true, // Edit matching HTML/XML tags (default: false)
+  "editor.semanticHighlighting.enabled": true, // Better syntax highlighting (default: false)
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on", // Enable suggestions in comments (default: false)
+    "strings": "on" // Enable suggestions in strings (default: false)
+  },
+
+  // ----------------------------------------
+  // 🖥️ WORKBENCH & UI
+  // ----------------------------------------
+
+  "workbench.editor.enablePreview": false, // Always open new tabs (default: true)
+  "workbench.editor.closeOnFileDelete": true, // Close deleted files (default: false)
+  "workbench.editor.highlightModifiedTabs": true, // Show unsaved changes (default: false)
+  "workbench.tree.indent": 15, // More indentation in explorer (default: 8)
+  "workbench.list.smoothScrolling": true, // Smooth scrolling (default: false)
+
+  // ----------------------------------------
+  // 🗂️ EXPLORER & FILE MANAGEMENT
+  // ----------------------------------------
+
+  "explorer.sortOrder": "type", // Sort by type (folders first) (default: "default")
+  "explorer.fileNesting.enabled": true, // Group related files (default: false)
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.component.ts": "${capture}.component.html, ${capture}.component.scss, ${capture}.component.css, ${capture}.component.spec.ts",
+    "pyproject.toml": "poetry.lock, requirements*.txt, setup.py, setup.cfg, Pipfile, Pipfile.lock"
+  },
+
+  // ----------------------------------------
+  // 🔍 SEARCH
+  // ----------------------------------------
+
+  "search.useGlobalIgnoreFiles": true, // Respect .gitignore (default: false)
+  "search.smartCase": true, // Smart case sensitivity (default: false)
+
+  // ----------------------------------------
+  // 💻 TERMINAL
+  // ----------------------------------------
+
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.fontFamily": "'CaskaydiaCove NF', 'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'Source Code Pro', Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 13, // Slightly smaller than editor
+  "terminal.integrated.lineHeight": 1.2, // Tighter spacing
+  "terminal.integrated.cursorBlinking": true, // Blinking cursor (default: false)
+  "terminal.integrated.scrollback": 10000, // More history (default: 1000)
+  "terminal.integrated.smoothScrolling": true, // Smooth scrolling (default: false)
+  "terminal.integrated.enableVisualBell": true, // Visual notifications (default: false)
+  "accessibility.signals.terminalBell": {
+    "sound": "on" // Enable bell sound (default: off)
+  },
+
+  // ----------------------------------------
+  // 🛠️ FORMATTERS & LINTERS
+  // ----------------------------------------
+
+  // GLOBAL FORMATTER CONFIGURATION
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Global formatter (default: none)
+
+  // Prettier configuration (Global formatter for JS/TS/CSS/HTML/JSON/Markdown)
+  "prettier.singleQuote": true, // Use single quotes (default: false)
+  "prettier.trailingComma": "es5", // ES5 trailing commas (default: "all")
+
+  // JUPYTER NOTEBOOK SETTINGS
+  "notebook.formatOnSave.enabled": true, // Enable format on save for notebooks
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit", // Auto-fix linting issues in notebook cells
+    "notebook.source.organizeImports": "explicit" // Organize imports in notebook cells
+  },
+
+  // PYTHON SETTINGS
+  "[python]": {
+    // Python Formatter Settings
+    "editor.formatOnSave": true, // Enable format on save for Python
+    "editor.defaultFormatter": "charliermarsh.ruff", // Use Ruff for Python formatting
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit", // Auto-fix linting issues with Ruff
+      "source.organizeImports.ruff": "explicit" // Organize imports with Ruff
+    }
+  },
+  // Python Linter Settings
+  "ruff.nativeServer": "on", // Use the faster Rust-based language server
+  "ruff.lineLength": 120, // Set line length to match editor rulers
+  "ruff.lint.select": ["E", "W", "F", "I"], // Enable errors, warnings, fatal issues, and import sorting
+
+  // Legacy Python linting settings (for compatibility)
+  "python.linting.enabled": true, // Enable Python linting
+  "python.linting.pylintEnabled": false, // Disable Pylint (using Ruff instead)
+  "python.linting.ruffEnabled": true, // Enable Ruff for linting
+  "python.analysis.typeCheckingMode": "basic", // Enable basic type checking
+
+  // JAVASCRIPT/TYPESCRIPT SETTINGS
+  "[javascript]": { "editor.tabSize": 2 }, // Web standard
+  "[typescript]": { "editor.tabSize": 2 }, // Web standard
+  "[javascriptreact]": { "editor.tabSize": 2 }, // React JSX
+  "[typescriptreact]": { "editor.tabSize": 2 }, // React TSX
+  // JavaScript/TypeScript Linter Settings
+  "eslint.run": "onSave", // Run ESLint on file save for immediate feedback
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // JAVA SETTINGS
+  "[java]": {
+    "editor.suggest.snippetsPreventQuickSuggestions": false // Enable snippets
+  },
+
+  // MARKDOWN SETTINGS
+  "[markdown]": {
+    "editor.wordWrap": "on", // Wrap markdown lines
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": "explicit" // Auto-fix markdownlint violations on save
+    }
+  },
+  // Markdown Linter Settings
+  "markdownlint.config": {
+    "default": true,
+    "MD013": false // Disable line-length rule (we use editor rulers and word wrap instead)
+  },
+
+  // ----------------------------------------
+  // 🐛 CODE QUALITY & SECURITY:
+  // ----------------------------------------
+  // SonarLint (multi-language code quality & security)
+  "sonarlint.disableTelemetry": true, // Disable telemetry (default: false)
+
+  // ----------------------------------------
+  // 📝 SPELL CHECKING
+  // ----------------------------------------
+
+  // Code Spell Checker - Multi-language support
+  "cSpell.language": "en,de,fr,es,it", // English, German, French, Spanish, Italian (default: "en")
+
+  // ----------------------------------------
+  // 🔀 VERSION CONTROL
+  // ----------------------------------------
+
+  "git.autofetch": "all", // Auto-fetch from remote (default: false)
+  "git.showPushSuccessNotification": true, // Show push notifications (default: false)
+
+  // ----------------------------------------
+  // 🔄 DIFF & MERGE
+  // ----------------------------------------
+
+  "diffEditor.ignoreTrimWhitespace": false, // Show whitespace changes (default: true)
+  "merge-conflict.autoNavigateNextConflict.enabled": true, // Auto-navigate conflicts (default: false)
+
+  // ----------------------------------------
+  // 🧠 LANGUAGE SERVER SETTINGS
+  // ----------------------------------------
+
+  // C/C++ standards
+  "C_Cpp.default.cppStandard": "c++17", // Modern C++ (default: varies)
+  "C_Cpp.default.cStandard": "c11", // Modern C (default: varies)
+  "C_Cpp.default.intelliSenseMode": "gcc-x64", // Cross-platform IntelliSense
+
+  // IntelliSense & imports
+  "typescript.suggest.autoImports": true, // Auto-suggest imports (default: false)
+  "javascript.suggest.autoImports": true, // Auto-suggest imports (default: false)
+  "typescript.updateImportsOnFileMove.enabled": "always", // Update imports on move (default: "prompt")
+  "javascript.updateImportsOnFileMove.enabled": "always", // Update imports on move (default: "prompt")
+
+  // ----------------------------------------
+  // 🤖 AI DEVELOPMENT:
+  // ----------------------------------------
+  "github.copilot.enable": { "*": true }, // Enable for all languages (default: varies)
+  "github.copilot.chat.codesearch.enabled": true, // Enable code search in Copilot Chat (default: false)
+  "github.copilot.chat.agent.thinkingTool": true, // Enable Copilot thinking tool (default: false)
+
+  // ----------------------------------------
+  // 💾 AUTO-SAVE & PERFORMANCE
+  // ----------------------------------------
+
+  "files.autoSave": "afterDelay", // Auto-save for collaboration (default: "off")
+  "files.autoSaveDelay": 3000, // 3-second delay (default: 1000)
+
+  // Updates & telemetry
+  "extensions.autoUpdate": "onlyEnabledExtensions", // Selective updates (default: "all")
+  "update.mode": "start", // Check updates on startup (default: "default")
+  "telemetry.telemetryLevel": "error",
+  "redhat.telemetry.enabled": false
+}
