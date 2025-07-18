@@ -128,7 +128,7 @@
   "files.trimFinalNewlines": true, // Remove extra blank lines (default: false)
 
   // ----------------------------------------
-  // 🎨 EDITOR FONT & APPEARANCE
+  // 🎨 EDITOR APPEARANCE & BEHAVIOR
   // ----------------------------------------
 
   "editor.fontFamily": "'CaskaydiaCove NF', 'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'Source Code Pro', Consolas, 'Courier New', monospace",
@@ -137,7 +137,7 @@
   "editor.lineHeight": 1.5, // Better readability (default: 0/auto)
   "editor.detectIndentation": true, // Enforce our tab settings (default: true)
   "editor.renderWhitespace": "all", // Show all whitespace (default: "none")
-  "editor.rulers": [80, 120], // Line length guides following opinionated standards (default: none)
+  "editor.rulers": [88, 120], // Line length guides following opinionated standards (default: none)
   "editor.wordWrap": "bounded", // Smart wrapping (default: "off")
   "editor.wordWrapColumn": 120, // Wrap at 120 chars (default: 80)
   "editor.bracketPairColorization.enabled": true, // Colorize brackets (default: false)
@@ -177,6 +177,7 @@
   // ----------------------------------------
 
   "explorer.sortOrder": "type", // Sort by type (folders first) (default: "default")
+  "explorer.compactFolders": false, // Disable folder squashing/compacting (default: true)
   "explorer.fileNesting.enabled": true, // Group related files (default: false)
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
@@ -243,8 +244,38 @@
   },
   // Python Linter Settings
   "ruff.nativeServer": "on", // Use the faster Rust-based language server
-  "ruff.lineLength": 120, // Set line length to match editor rulers
-  "ruff.lint.select": ["E", "W", "F", "I"], // Enable errors, warnings, fatal issues, and import sorting
+  "ruff.lineLength": 88, // Set line length to match opinionated standards
+  // Comprehensive opinionated ruleset
+  "ruff.lint.select": [
+    "E",
+    "F",
+    "I",
+    "B",
+    "UP",
+    "C4",
+    "PIE",
+    "TID",
+    "S",
+    "N",
+    "T20",
+    "PL"
+  ],
+  // Ignore rules that could conflict with formatter rules
+  "ruff.lint.ignore": [
+    "W191",
+    "E111",
+    "E114",
+    "E117",
+    "D206",
+    "D300",
+    "Q000",
+    "Q001",
+    "Q002",
+    "Q003",
+    "COM812",
+    "COM819",
+    "ISC002"
+  ],
 
   // Legacy Python linting settings (for compatibility)
   "python.linting.enabled": true, // Enable Python linting
@@ -296,6 +327,7 @@
 
   // Code Spell Checker - Multi-language support
   "cSpell.language": "en,de,fr,es,it", // English, German, French, Spanish, Italian (default: "en")
+  "cSpell.allowCompoundWords": true, // Enable compound words (default: false)
 
   // ----------------------------------------
   // 🔀 VERSION CONTROL
