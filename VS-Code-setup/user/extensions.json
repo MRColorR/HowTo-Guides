@@ -1,0 +1,96 @@
+{
+  // ========================================
+  // 🎯 RECOMMENDED EXTENSIONS
+  // ========================================
+  // This file ensures users can easily get recommended extensions installed
+  // VS Code will prompt users to install these when they open the project
+  // @author: MRC
+
+  "recommendations": [
+    // ----------------------------------------
+    // 🐍 PYTHON DEVELOPMENT
+    // ----------------------------------------
+    "ms-python.python",
+    // Complete Python development pack includes:
+    // • Pylance (IntelliSense, type checking)
+    // • Python Debugger
+    // • Python Environment Manager
+    // • Jupyter support
+
+    // ----------------------------------------
+    // 🛠️ FORMATTERS & LINTERS
+    // ----------------------------------------
+    "charliermarsh.ruff",
+    // Modern Python linter/formatter (replaces Black, isort, flake8, mypy)
+    // • Fast Rust-based linter
+    // • Auto-formatting
+    // • Import organization
+    // • Comprehensive rule set
+
+    "esbenp.prettier-vscode",
+    // Universal formatter for web technologies:
+    // • JavaScript/TypeScript
+    // • JSON, YAML
+    // • Markdown
+    // • CSS, HTML
+
+    // ----------------------------------------
+    // 📝 DOCUMENTATION & QUALITY
+    // ----------------------------------------
+    "DavidAnson.vscode-markdownlint",
+    // Markdown linter for consistent documentation
+    // • README.md quality
+    // • Documentation standards
+    // • Markdown best practices
+
+    "streetsidesoftware.code-spell-checker",
+    // Spell checker for code and documentation
+    // • Code comments
+    // • Documentation files
+    // • Git commit messages
+
+    // ----------------------------------------
+    // 🐛 CODE QUALITY & SECURITY
+    // ----------------------------------------
+    "sonarsource.sonarlint-vscode",
+    // Real-time code quality and security analysis
+    // • Multi-language support
+    // • Security vulnerability detection
+    // • Code smell detection
+    // • Best practices enforcement
+
+    // ----------------------------------------
+    // 🔀 VERSION CONTROL
+    // ----------------------------------------
+    "eamodio.gitlens"
+    // Enhanced Git capabilities
+    // • Git blame annotations
+    // • Repository insights
+    // • Commit history
+    // • Branch comparison
+  ],
+
+  // ----------------------------------------
+  // 🚫 UNWANTED EXTENSIONS
+  // ----------------------------------------
+  "unwantedRecommendations": [
+    // Avoid these extensions that conflict with our setup
+    "ms-python.black-formatter",
+    // We use Ruff instead of Black for formatting
+
+    "ms-python.flake8",
+    // We use Ruff instead of flake8 for linting
+
+    "ms-python.isort",
+    // We use Ruff instead of isort for import sorting
+
+    "ms-python.mypy-type-checker",
+    // We use Ruff and Pylance for type checking
+
+    "ms-python.pylint",
+    // We use Ruff instead of pylint for linting
+
+    "ms-python.autopep8"
+    // We use Ruff instead of autopep8 for formatting
+  ]
+}
