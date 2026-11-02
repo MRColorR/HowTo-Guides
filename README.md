@@ -46,7 +46,7 @@ Your support helps sustain the development of these open-source projects, allowi
 
 Support ongoing development, testing and documentation through [Ko-fi](https://ko-fi.com/mrcolorrain). One-time contributions and monthly memberships are welcome, and you can pledge above a tier's minimum.
 
-Support is optional. Contributions do not guarantee feature delivery, priority support, provider recommendations or exclusivity. Technical decisions remain independent.
+Your contribution helps me keep building, testing and sharing useful work. Explore the membership benefits on Ko-fi and choose the way you would like to support. Technical decisions remain independent.
 
 Your support, no matter how small, is enormously appreciated and directly fuels ongoing and future developments.  **Thank you for your generosity!** 🙏
 
@@ -56,4 +56,3 @@ This project and its artifacts are provided "as is" and without warranty of any 
 The author makes no warranties, express or implied, that this script is free of errors, defects, or suitable for any particular purpose.
 
 The author shall not be held liable for any damages suffered by any user of this script, whether direct, indirect, incidental, consequential, or special, arising from the use of or inability to use this script or its documentation, even if the author has been advised of the possibility of such damages.
-
