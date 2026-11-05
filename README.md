@@ -1,24 +1,45 @@
 # HowTo-Guides
 
+<!-- Project README scaffold: https://github.com/MRColorR/project-template -->
+
+[Overview](#overview) | [Getting started](#getting-started) | [Documentation](#documentation) | [Contributing](#contributing) | [Support](#support) | [License](#license)
+
+## Overview
+
 Welcome to HowTo-Guides repository! An useful repository for setup guides, configuration scripts, and troubleshooting resources across tech, coding, and gaming. Whether you're a developer, gamer, or tech enthusiast, you'll find step-by-step tutorials and ready-to-use scripts to enhance your experience.
 
 Feel free to explore, contribute, and make the most of these resources! 🚀
 
 **Leave a star ⭐ if you like this project! Your support is appreciated!🙂**
 
-## 📂 What You'll Find Here: 
+## Getting started
 
-Each folder in this repository contains a specific how-to guide. Inside each folder, you'll find:
-- A **README** file with detailed instructions
-- Any necessary **scripts** or **resources** for your setup or configuration.
-
-## 🚀 How to Use This Repository 
+<a name="-how-to-use-this-repository"></a>
 
 1. **Explore** the folders to find the guide that fits your needs.
 2. **Read** the README file inside the folder for detailed instructions.
 3. **Use** the provided scripts and resources to complete the setup or configuration for your system.
 
-## 🤝 Contribute:
+## Documentation
+
+<a name="-what-youll-find-here"></a>
+
+### What You'll Find Here
+
+Each folder in this repository contains a specific how-to guide. Inside each folder, you'll find:
+- A **README** file with detailed instructions
+- Any necessary **scripts** or **resources** for your setup or configuration.
+
+<a name="-stay-connected"></a>
+
+### Stay Connected
+
+**Join our community** to stay updated on the latest tools, guides, and tutorials. You can also engage with other tech enthusiasts and gamers::
+- [Discord community](https://discord.gg/d5rPXx8)
+
+## Contributing
+
+<a name="-contribute"></a>
 
 We welcome contributions from the community! If you have a script, guide, or improvement suggestion that you believe would benefit others, feel free to:
 
@@ -26,12 +47,13 @@ We welcome contributions from the community! If you have a script, guide, or imp
 2. Make your changes.
 3. Submit a **pull request**. We're excited to see your contributions!
 
-## 🌐 Stay Connected
+Please include enough context to reproduce a problem or review a change.
 
-**Join our community** to stay updated on the latest tools, guides, and tutorials. You can also engage with other tech enthusiasts and gamers::
-- [Discord community](https://discord.gg/d5rPXx8)
+## Support
 
-## 🫶 Support the Projects 
+Ko-fi supports Mattia / MrColorRain's work across projects.
+
+<a name="-support-the-projects"></a>
 
 Your support helps sustain the development of these open-source projects, allowing us to create more useful tools and guides for everyone. If you'd like to contribute, consider making a donation:
 
@@ -50,7 +72,16 @@ Your contribution helps me keep building, testing and sharing useful work. Explo
 
 Your support, no matter how small, is enormously appreciated and directly fuels ongoing and future developments.  **Thank you for your generosity!** 🙏
 
-## ⚠️ Disclaimer 
+See the [supporters and sponsors directory](https://github.com/MRColorR/MRColorR/blob/main/SPONSORS.md) for acknowledgments.
+
+## License
+
+A project license has not been declared in this repository. Contact the maintainer about reuse permissions.
+
+<a name="️-disclaimer"></a>
+
+### Disclaimer
+
 This project and its artifacts are provided "as is" and without warranty of any kind.
 
 The author makes no warranties, express or implied, that this script is free of errors, defects, or suitable for any particular purpose.
