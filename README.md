@@ -4,7 +4,7 @@
 
 **Find step-by-step tech and gaming guides, configuration examples, and troubleshooting scripts.**
 
-[**Browse the guides**](#getting-started) · [Documentation](#documentation) · [Support](#support)
+[**🚀 Browse the guides**](#getting-started) · [📚 Documentation](#documentation) · [🫶 Support](#support)
 
 **Leave a star ⭐ if you like this project 🙂 Thank you!**
 
@@ -54,9 +54,13 @@ Please include enough context to reproduce a problem or review a change.
 
 ## Support
 
-Help fund ongoing development, testing, and documentation with a one-time contribution or monthly membership on [Ko-fi](https://ko-fi.com/mrcolorrain). Technical decisions remain independent.
+**🫶 Support the project**
 
-Thank you to the people who support MrColorRain’s work. See the [supporters and sponsors directory](https://github.com/MRColorR/MRColorR/blob/main/SPONSORS.md).
+Your contributions are vital in helping to sustain the development of open-source projects and tools made freely available to everyone. If you find value in my work and wish to show your support, kindly consider making a donation.
+
+☕ [Support me on Ko-fi](https://ko-fi.com/mrcolorrain) · 💛 [Donate with cryptocurrency](https://github.com/MRColorR/MRColorR/blob/main/SPONSORS.md#cryptocurrency-wallets)
+
+Thank you for helping me keep building and sharing! 🙏 See the [supporters and sponsors directory](https://github.com/MRColorR/MRColorR/blob/main/SPONSORS.md).
 
 <a name="-support-the-projects"></a>
 
