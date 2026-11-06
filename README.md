@@ -2,7 +2,11 @@
 
 <!-- Project README scaffold: https://github.com/MRColorR/project-template -->
 
-[Overview](#overview) | [Getting started](#getting-started) | [Documentation](#documentation) | [Contributing](#contributing) | [Support](#support) | [License](#license)
+**Find step-by-step tech and gaming guides, configuration examples, and troubleshooting scripts.**
+
+[**Browse the guides**](#getting-started) · [Documentation](#documentation) · [Support](#support)
+
+**Leave a star ⭐ if you like this project 🙂 Thank you!**
 
 ## Overview
 
@@ -10,7 +14,6 @@ Welcome to HowTo-Guides repository! An useful repository for setup guides, confi
 
 Feel free to explore, contribute, and make the most of these resources! 🚀
 
-**Leave a star ⭐ if you like this project! Your support is appreciated!🙂**
 
 ## Getting started
 
@@ -51,7 +54,9 @@ Please include enough context to reproduce a problem or review a change.
 
 ## Support
 
-Ko-fi supports Mattia / MrColorRain's work across projects.
+Help fund ongoing development, testing, and documentation with a one-time contribution or monthly membership on [Ko-fi](https://ko-fi.com/mrcolorrain). Technical decisions remain independent.
+
+Thank you to the people who support MrColorRain’s work. See the [supporters and sponsors directory](https://github.com/MRColorR/MRColorR/blob/main/SPONSORS.md).
 
 <a name="-support-the-projects"></a>
 
@@ -66,13 +71,7 @@ Your support helps sustain the development of these open-source projects, allowi
 
 ### Support on Ko-fi
 
-Support ongoing development, testing and documentation through [Ko-fi](https://ko-fi.com/mrcolorrain). One-time contributions and monthly memberships are welcome, and you can pledge above a tier's minimum.
-
-Your contribution helps me keep building, testing and sharing useful work. Explore the membership benefits on Ko-fi and choose the way you would like to support. Technical decisions remain independent.
-
 Your support, no matter how small, is enormously appreciated and directly fuels ongoing and future developments.  **Thank you for your generosity!** 🙏
-
-See the [supporters and sponsors directory](https://github.com/MRColorR/MRColorR/blob/main/SPONSORS.md) for acknowledgments.
 
 ## License
 
