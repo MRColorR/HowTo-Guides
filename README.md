@@ -52,6 +52,8 @@ We welcome contributions from the community! If you have a script, guide, or imp
 
 Please include enough context to reproduce a problem or review a change.
 
+<a name="-support-the-projects"></a>
+
 ## Support
 
 **🫶 Support the project**
@@ -61,21 +63,6 @@ Your contributions are vital in helping to sustain the development of open-sourc
 ☕ [Support me on Ko-fi](https://ko-fi.com/mrcolorrain) · 💛 [Donate with cryptocurrency](https://github.com/MRColorR/MRColorR/blob/main/SUPPORTERS.md#cryptocurrency-wallets)
 
 Thank you for helping me keep building and sharing! 🙏 See the [supporter directory](https://github.com/MRColorR/MRColorR/blob/main/SUPPORTERS.md).
-
-<a name="-support-the-projects"></a>
-
-Your support helps sustain the development of these open-source projects, allowing us to create more useful tools and guides for everyone. If you'd like to contribute, consider making a donation:
-
-**Cryptocurrency Wallets**
-- Bitcoin (BTC): bc1qfedn48gg4cczsgh8elgka860r3kyg97t223gg2
-- Ethereum (ETH): 0x569fD7dCF04c8a52362cc23C14eCFc01C7D89D16
-- Solana (SOL): 9HVxavPknP6bHm6iDtvZWq3PyxTcbnsPN86y9Zi6xm2W
-- Polygon (MATIC): 0x569fD7dCF04c8a52362cc23C14eCFc01C7D89D16
-- BNB (Binance Smart Chain): 0x569fD7dCF04c8a52362cc23C14eCFc01C7D89D16
-
-### Support on Ko-fi
-
-Your support, no matter how small, is enormously appreciated and directly fuels ongoing and future developments.  **Thank you for your generosity!** 🙏
 
 ## License
 
