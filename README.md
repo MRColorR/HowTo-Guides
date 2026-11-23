@@ -6,16 +6,22 @@
 
 [**🚀 Browse the guides**](#getting-started) · [📚 Documentation](#documentation) · [🫶 Support](#support)
 
-**Leave a star ⭐ if you like this project 🙂 Thank you!**
+<p align="center">
+  <strong>Leave a star ⭐ if you like this project 🙂 Thank you!</strong>
+</p>
 
-## Overview
+<a name="overview"></a>
+
+## 🔍 Overview
 
 Welcome to HowTo-Guides repository! An useful repository for setup guides, configuration scripts, and troubleshooting resources across tech, coding, and gaming. Whether you're a developer, gamer, or tech enthusiast, you'll find step-by-step tutorials and ready-to-use scripts to enhance your experience.
 
 Feel free to explore, contribute, and make the most of these resources! 🚀
 
 
-## Getting started
+<a name="getting-started"></a>
+
+## 🚥 Getting started
 
 <a name="-how-to-use-this-repository"></a>
 
@@ -23,7 +29,9 @@ Feel free to explore, contribute, and make the most of these resources! 🚀
 2. **Read** the README file inside the folder for detailed instructions.
 3. **Use** the provided scripts and resources to complete the setup or configuration for your system.
 
-## Documentation
+<a name="documentation"></a>
+
+## 📚 Documentation
 
 <a name="-what-youll-find-here"></a>
 
@@ -40,7 +48,9 @@ Each folder in this repository contains a specific how-to guide. Inside each fol
 **Join our community** to stay updated on the latest tools, guides, and tutorials. You can also engage with other tech enthusiasts and gamers::
 - [Discord community](https://discord.gg/d5rPXx8)
 
-## Contributing
+<a name="contributing"></a>
+
+## 🤝 Contributing
 
 <a name="-contribute"></a>
 
@@ -54,7 +64,9 @@ Please include enough context to reproduce a problem or review a change.
 
 <a name="-support-the-projects"></a>
 
-## Support
+<a name="support"></a>
+
+## 🫶 Support
 
 **🫶 Support the project**
 
@@ -64,7 +76,9 @@ Your contributions are vital in helping to sustain the development of open-sourc
 
 Thank you for helping me keep building and sharing! 🙏 See the [supporter directory](https://github.com/MRColorR/MRColorR/blob/main/SUPPORTERS.md).
 
-## License
+<a name="license"></a>
+
+## 📄 License
 
 A project license has not been declared in this repository. Contact the maintainer about reuse permissions.
 
